@@ -1,0 +1,31 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "compile": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokuzzz/codewars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rokuzzz/codewars/issues"
+  },
+  "homepage": "https://github.com/rokuzzz/codewars#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.3",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
