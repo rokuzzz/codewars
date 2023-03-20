@@ -1,6 +1,6 @@
-import type * as TestFunctions from '../typescript/6kyu/wordSpinner'
+import type * as TestFunctions from '../../typescript/6kyu/spinWords'
 
-const { spinWords } = jest.requireActual<typeof TestFunctions>("../typescript/6kyu/wordSpinner.ts")
+const { spinWords } = jest.requireActual<typeof TestFunctions>("../../typescript/6kyu/spinWords.ts")
 
 const successCases = [
   {
