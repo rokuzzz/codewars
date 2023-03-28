@@ -14,28 +14,28 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 */
 
 export const likes = (a : string[]) : string => {
-  let output: string = ''
+  let message: string = ''
   
   if (a.length == 0) {
-    output = 'no one likes this'
+    message = 'no one likes this'
     
-    return output
+    return message
   } else if (a.length == 1) {
-    output = `${a[0]} likes this`
+    message = `${a[0]} likes this`
     
-    return output
+    return message
   } else if (a.length == 2) {
-    output = `${a[0]} and ${a[1]} like this`
+    message = `${a[0]} and ${a[1]} like this`
     
-    return output
+    return message
   } else if (a.length == 3) {
-    output = `${a[0]}, ${a[1]} and ${a[2]} like this`
+    message = `${a[0]}, ${a[1]} and ${a[2]} like this`
     
-    return output
+    return message
   } else {
     const theRestNumOfPeople = a.length - 2
-    output = `${a[0]}, ${a[1]} and ${theRestNumOfPeople} others like this`
+    message = `${a[0]}, ${a[1]} and ${theRestNumOfPeople} others like this`
     
-    return output
+    return message
   }
 }
