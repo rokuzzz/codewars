@@ -1,5 +1,5 @@
 /**
- * Name: Beginner Series #3 Sum of Numbers
+ * Name: Keep Hydrated!
  *
  * Description:
  * Nathan loves cycling.
